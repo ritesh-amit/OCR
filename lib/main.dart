@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:firebase_ml_text_recognition/img.dart';
-import 'package:firebase_ml_text_recognition/mobile.dart';
 void main() {
 runApp(MyApp());
 }
@@ -101,7 +100,7 @@ height: SizeConfig.screenHeight * 0.0336,
 Row(
 mainAxisAlignment: MainAxisAlignment.spaceAround,
 children:[
-FloatingActionButton(
+/*FloatingActionButton(
 backgroundColor: Color(0xffc80815),
 child: Icon(
 Icons.camera,
@@ -114,7 +113,7 @@ MaterialPageRoute(builder: (context) => Mobile1()));
 
 },
 heroTag: null,
-),
+),*/
 
 FloatingActionButton(
 backgroundColor: Color(0xff2E3842),

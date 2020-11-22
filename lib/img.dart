@@ -19,16 +19,6 @@ v=screenHeight/100;
 }
 }
 
-/*class Read extends StatelessWidget {
-@override
-Widget build(BuildContext context) => MaterialApp(
-debugShowCheckedModeBanner: false,
-title: "OCR",
-theme: ThemeData(),
-home: MainPage(),
-);
-}*/
-
 class MainPage extends StatefulWidget {
 @override
 _MainPageState createState() => _MainPageState();
